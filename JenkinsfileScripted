@@ -3,7 +3,7 @@ node
  
   stage("CheckOutCodeGit")
   {
-   git branch: 'vishnu', credentialsId: 'GitCreds', url: 'https://github.com/nvvr53/nodejs-app-mss.git'
+   git branch: 'vishnu', credentialsId: 'GitHubCreds', url: 'https://github.com/nvvr53/nodejs-app-mss.git'
   }
  
  stage("Build")
