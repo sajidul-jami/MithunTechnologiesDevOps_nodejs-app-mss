@@ -4,7 +4,11 @@
   "description": "This Project explains all Node JS examples",
   "main": "app.js",
   "publishConfig": {
-    "registry": "http://13.201.133.218:9980/mithuntechnologies/repository/mssnodejsrepo/"
+#<<<<<<< master
+   # "registry": "http://13.232.145.86:9036/nexus/repository/mss-nodejs-repo/"
+#=======
+    #"registry": "http://13.201.133.218:9980/mithuntechnologies/repository/mssnodejsrepo/"
+#>>>>>>> master
   },
   
   "scripts": {
